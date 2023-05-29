@@ -1,0 +1,65 @@
+/* start variables */
+/* end variables */
+/* start global rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 70%;
+    width: 50vw;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 7px;
+}
+/* end global rules */
+.container form {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container form div label {
+    display: block;
+    margin-bottom: 10px;
+}
+.container form input {
+    width: 40px;
+    height: 30px;
+    outline: none;
+    text-align: center;
+}
+.container .results h4 {
+    width: 100%;
+    background-color: #518428;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .results span {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color: #518428;
+}
+#btn {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    color: white;
+    background-color: #518428;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.red {
+    border: 1px solid red;
+}
